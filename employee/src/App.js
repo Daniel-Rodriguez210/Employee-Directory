@@ -1,6 +1,7 @@
 import React from "react";
-
-
+import Header from "./components/header/header";
+import Main from "./components/main/main";
+import Wrapper from "./components/wrapper/wrapper";
 
 
 
