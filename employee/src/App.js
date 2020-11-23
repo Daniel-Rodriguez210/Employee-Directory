@@ -2,12 +2,14 @@ import React from "react";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
 import EmployeeCard from "./components/EmployeeCard";
+import Dropdown from "./components/Dropdown/dropdown"
 import employee from "./employees.json";
 
 function App() {
   return (
     <Wrapper>
       <Title>Employee List</Title>
+      <Dropdown/>
       <EmployeeCard
         name={employee[0].name}
         image={employee[0].image}
